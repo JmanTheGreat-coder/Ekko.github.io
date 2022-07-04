@@ -1,0 +1,21 @@
+<div class="card">
+                <img src={props.img} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                    <a href="#" role="tab" data-rb-event-key="newArrival" aria-selected="false" class="nav-link">{props.name}</a>
+                        <p class="card-text">{props.stars}</p>
+                        <p class="card-text">{props.price}</p>
+                </div>
+            </div> 
+
+            <Game 
+            name= 'God Of War'
+            img= {God}
+            stars= '⭐⭐⭐⭐⭐'
+            price= '$29.99'
+          />
+                          <Game 
+            name= 'God Of War'
+            img= {God}
+            stars= '⭐⭐⭐⭐⭐'
+            price= '$29.99'
+          />
