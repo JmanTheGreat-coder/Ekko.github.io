@@ -19,7 +19,6 @@ const Cards = ({ item, handleClick, handleClick2 }) => {
             <Link to={`/products/${id}`}>
               <h6>
                 <p>{title}</p>
-                <p>{wasgud}</p>
               </h6>  
             </Link> 
             <BsCart3 size='1.5rem' onClick={() => handleClick(item)}/>
