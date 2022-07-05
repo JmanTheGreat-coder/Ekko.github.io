@@ -8,7 +8,7 @@ function Paypal({price}) {
           purchase_units: [
             {
               amount: {
-                value: {price},
+                value: price,
               },
             },
           ],
