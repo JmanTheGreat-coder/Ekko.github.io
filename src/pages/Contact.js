@@ -13,7 +13,7 @@ function Contact() {
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body">
               <div class="row">
                 <div class="col-6">
