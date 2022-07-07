@@ -27,7 +27,12 @@ const filterConsoles = (catItem) => {
 
 const [searchTerm, setsearchTerm] = useState("")
 
-
+const [sortState, setSortState] = useState("none");
+const sortMethods = {
+  none: { method: (a, b) => null },
+  ascending: { method: undefined },
+  descending: { method: (a, b) => (a > b ? -1 : 1) },
+};
 
 
 
@@ -45,6 +50,17 @@ const changePage = ({ selected }) => {
 
 
 
+const [prices, setPrices] = useState([])
+
+    /** Function to sort ascending order */
+    const ascOrder = (): void => {
+      setData([].concat(data).sort((a: any, b: any) => a.price - b.price));
+  };
+
+  /** Function to sort descending order */
+  const descOrder = (): void => {
+    setData([].concat(data).sort((a: any, b: any) => b.price - a.price));
+  };
 
 
 
@@ -121,9 +137,9 @@ const changePage = ({ selected }) => {
                   Default
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Default</a></li>
-                  <li><a class="dropdown-item" href="#">Price - Low to High</a></li>
-                  <li><a class="dropdown-item" href="#">Price - High to Low</a></li>
+                  <li><a class="dropdown-item" >Default</a></li>
+                  <li><a class="dropdown-item" onClick={() => ascOrder()}>Price - Low to High</a></li>
+                  <li><a class="dropdown-item" onClick={() => descOrder()}>Price - High to Low</a></li>
                 </ul>
               </div>
                   <p>Showing {data.length} of 20 result</p>
@@ -134,7 +150,8 @@ const changePage = ({ selected }) => {
               
                 <div class='col-lg-12'>
                   <div class="row row-cols-1 row-cols-md-3 g-4">
-                    {data.slice(
+                    {data.sort(sortMethods[sortState].method)
+                    .slice(
                       visitedPage,
                       visitedPage + productPerPage
                     ).filter((val) => {
