@@ -50,7 +50,6 @@ const changePage = ({ selected }) => {
 
 
 
-const [prices, setPrices] = useState([])
 
     /** Function to sort ascending order */
     const ascOrder = (): void => {
