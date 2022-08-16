@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -37,6 +35,9 @@
   }
 }
 
+p{
+  color: #107c10;
+}
 .paginationBttns {
   width: 80%;
   height: 40px;
@@ -83,24 +84,11 @@
 .gift-card:focus {
   box-shadow: none;
 }
-
-.pay-button {
-  color: #fff;
+.btn:hover {
+  background-color: #77bb44;
+  color: white;
+  border-radius: 20px;
 }
-
-.pay-button:hover {
-  color: #fff;
-}
-
-.pay-button:focus {
-  color: #fff;
-  box-shadow: none;
-}
-
-.text-grey {
-  color: #a39f9f;
-}
-
-.qty i {
-  font-size: 11px;
+.input{
+  border-radius: 20px;
 }

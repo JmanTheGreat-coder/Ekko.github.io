@@ -33,6 +33,7 @@ import Detail17 from './detail/Detail17'
 import Detail18 from './detail/Detail18'
 import Detail19 from './detail/Detail19'
 import Detail20 from './detail/Detail20'
+import "./App.css";
 
 
 

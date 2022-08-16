@@ -12,7 +12,7 @@ import './Header.css'
 
 function Header({ size, sizeWish }) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar header navbar-expand-lg navbar-light ">
   <div class="container">
     <li class="nav-item">
       <Link  to='/'><a class="navbar-brand" href="#">Ekko</a></Link>

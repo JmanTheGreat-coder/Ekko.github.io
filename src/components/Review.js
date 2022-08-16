@@ -112,7 +112,7 @@ function Review() {
                     class="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  
                 </button>
                 <button
                   class="carousel-control-next"
@@ -124,7 +124,7 @@ function Review() {
                     class="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  
                 </button>
               </div>
             </div>

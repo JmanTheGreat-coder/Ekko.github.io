@@ -3,7 +3,7 @@ import React from "react";
 function Account() {
   return (
     <div>
-      <div class="card">
+      
         <div class="card-body text-center">
           <a href="#" class="card-link">
             Home
@@ -128,7 +128,7 @@ function Account() {
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
   );
 }

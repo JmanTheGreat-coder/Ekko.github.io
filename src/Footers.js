@@ -3,16 +3,16 @@ import React from 'react'
 function Footers() {
   return (
     <div>
-        <div class="container">
+        <div class="container-fluid header">
   <footer class="row row-cols-5 py-5 my-5 border-top pt-100 pb-70">
 
-    <div class="col-lg-3 col-md-4 col-sm-4 col-8">
+    <div class="col-lg-3 col-md-4 col-sm-4 col-8 mt-2">
         <h2>Ekko.</h2>
         <h5>2022 @ekko</h5>
         <h5>All Rights Reserved</h5>
     </div>
 
-    <div class="col-lg-2 col-md-4 col-sm-4 col-8">
+    <div class="col-lg-2 col-md-4 col-sm-4 col-8 mt-2">
       <h5>Section</h5>
       <ul class="nav flex-column">
       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
@@ -22,7 +22,7 @@ function Footers() {
       </ul>
     </div>
 
-    <div class="col-lg-2 col-md-4 col-sm-4 col-8">
+    <div class="col-lg-2 col-md-4 col-sm-4 col-8 mt-2">
       <h5>Section</h5>
       <ul class="nav flex-column">
       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Return</a></li>
@@ -31,7 +31,7 @@ function Footers() {
       </ul>
     </div>
 
-    <div class="col-lg-2 col-md-4 col-sm-4 col-8">
+    <div class="col-lg-2 col-md-4 col-sm-4 col-8 mt-2">
         <h5>Section</h5>
         <ul class="nav flex-column">
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
@@ -41,7 +41,7 @@ function Footers() {
         </ul>
     </div>
 
-    <div class="col-lg-2 col-md-8 col-sm-8 col-8">
+    <div class="col-lg-2 col-md-8 col-sm-8 col-8 mt-2">
         <h5>Subscribe</h5>
         <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get E-mail updates about our latest shop and special offers.</a></li>

@@ -11,7 +11,7 @@ function Carousel() {
 
 
   
-<div class="container-fluid my-3">
+<div class="container-fluid ">
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         
         <ol class="carousel-indicators">

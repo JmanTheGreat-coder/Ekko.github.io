@@ -38,7 +38,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
             {cart.map((item) => (
               <div class="d-flex flex-row justify-content-between align-items-center p-2 bg-white mt-4 px-3 rounded">
                 <div class="mr-1 ">
-                  <img class="rounded" src={item.img} width="90" />
+                  <img class="rounded" src={item.img} width="100" />
                 </div>
                 <div class="d-flex flex-column align-items-center product-details col-3">
                   <h7 class="font-weight-bold">{item.title}</h7>
@@ -67,10 +67,10 @@ const Cart = ({ cart, setCart, handleChange }) => {
             <div class="col-md-10">
               <div class="card border-0 mt-5">
                 <div class="row">
-                  <div class="col-lg-6 col-md-6">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                     <Paypal price={price} />
                   </div>
-                  <div class="col-lg-6 col-md-6 mt-2">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 mt-2">
                     <div class="row d-flex justify-content-between px-4">
                       <p class="mb-1 text-left">Subtotal</p>
                       <h6 class="mb-1 text-right">${price}</h6>
