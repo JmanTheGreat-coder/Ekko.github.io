@@ -1,0 +1,16 @@
+ a {
+    color: #000000!important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+  }
+  
+   a:hover {
+    color: #77bb44!important;
+  }
+
+  .btn{
+    border-radius: 20px;
+    background-color: #282c34;
+  }

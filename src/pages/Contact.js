@@ -13,9 +13,9 @@ function Contact() {
     <div class="container mt-5">
       <div class="row">
         <div class="col-lg-4">
-          <div class="card h-100">
+          <div class="card h-100 mt-2">
             <div class="card-body">
-              <div class="row">
+              <div class="row mt-2 mb-4 text-center">
                 <div class="col-6">
                   <BsFillTelephoneFill size="2rem" class='info'/>
                 </div>
@@ -23,15 +23,15 @@ function Contact() {
                   <p>+012 345 678 102</p>
                 </div>
               </div>
-              <div class="row">
+              <div class="row mb-4 text-center">
                 <div class="col-6">
                   <BsGlobe2 size="2rem" class='info'/>
                 </div>
-                <div class="col-6">
+                <div class="col-6  text-center">
                   <p>ekko147@hotmail.com</p>
                 </div>
               </div>
-              <div class="row">
+              <div class="row mb-3 text-center">
                 <div class="col-6">
                   <BsHouseFill size="2rem" class='info'/>
                 </div>
@@ -55,7 +55,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-8 mt-2">
           <div class="card">
             <div class="card-body">
               <div class="account-info-wrapper">

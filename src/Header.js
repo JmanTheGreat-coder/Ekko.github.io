@@ -1,11 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from "react-router-dom";
-import {BsSearch} from "react-icons/bs";
 import {BsCart3} from "react-icons/bs";
 import {BsBookmarkHeart} from "react-icons/bs";
 import {BsFileEarmarkPerson} from "react-icons/bs";
-
 import './Header.css'
 
 

@@ -38,7 +38,7 @@ const Wish = ({ wish, setWish }) => {
           <img class="rounded" src={item.img} width="100" />
         </div>
         <div class="d-flex flex-column align-items-center product-details col-3">
-          <h7 class="font-weight-bold">{item.title}</h7>
+          <h6 class="font-weight-bold">{item.title}</h6>
           <div class="d-flex flex-row product-desc">
             <div class="size mr-1">
               <span class="text-grey">Size:</span>

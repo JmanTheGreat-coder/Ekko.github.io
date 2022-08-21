@@ -3,10 +3,7 @@ import React, { useState, useEffect } from "react";
 function Login() {
   const [tab, setTab] = useState("desc");
   return (
-
-
-    <div class='container'>
-
+    <div class="container">
       <div class="card-body text-center">
         <a href="#" class="card-link">
           Home
@@ -33,9 +30,6 @@ function Login() {
           </span>
         </div>
       </ul>
-
-          
-
 
       <div class="container col-lg-6">
         <div class="card">
@@ -120,9 +114,7 @@ function Login() {
           </div>
         </div>
       </div>
-    
     </div>
-
   );
 }
 

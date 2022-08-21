@@ -3,12 +3,10 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import Header from './Header';
 import Footers from './Footers';
 import Shop from './pages/Shop'
-import { BrowserRouter as Router,Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './pages/Home';
 import Account from './pages/Account'
-import ProductDetail from "./components/ProductDetail";
-import Productpage from './pages/Productpage';
-import React, { useState, useEffect } from "react";
+import React, {useState} from "react";
 import Cart from "./components/cart";
 import Wish from './components/Wish'
 import Login from './pages/Login'

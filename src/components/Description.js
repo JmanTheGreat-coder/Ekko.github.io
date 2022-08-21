@@ -3,7 +3,7 @@ import list from "../data";
 import Cards from "../components/card";
 
 function Description({ item, handleClick, handleClick2 }) {
-  const { description, consoles } = item;
+  const { description, consoles, review } = item;
   const [tab, setTab] = useState("desc");
   const [enteredName, setEnteredName] = useState("");
   const [enteredEmail, setEnteredEmail] = useState("");
@@ -46,35 +46,17 @@ function Description({ item, handleClick, handleClick2 }) {
             </div>
           ) : (
             <div class="row">
-              <div class="col-sm-7">
+              <div class="col-sm-7 col-md">
                 <div class="card">
                   <div class="card-body">
-                    <div className="tab__form mb-3">
-                      <div className="review pt-5">
-                        <p className="user__name mb-0">Jhon Doe</p>
-                        <p className="user__email">jhon1@gmail.com</p>
-                        <p className="feedback__text">great product</p>
-                      </div>
-
-                      <div className="review">
-                        <p className="user__name mb-0">Jhon Doe</p>
-                        <p className="user__email">jhon1@gmail.com</p>
-                        <p className="feedback__text">great product</p>
-                      </div>
-
-                      <div className="review">
-                        <p className="user__name mb-0">Jhon Doe</p>
-                        <p className="user__email">jhon1@gmail.com</p>
-                        <p className="feedback__text">great product</p>
-                      </div>
-                    </div>
+                    <p>{review}</p>
                   </div>
                 </div>
               </div>
               <div class="col-sm-5">
-                <div class="card">
+                <div class="card h-100">
                   <div class="card-body">
-                                  <h5>Add a Review</h5>      
+                    <h5>Add a Review</h5>      
                     <div class="row">
                       <div class="col col-md-6 col-sm-12">
                         <input
@@ -93,14 +75,14 @@ function Description({ item, handleClick, handleClick2 }) {
                       </div>
                     </div>
                     <div>
-                      <div class="form-group">
+                      <div class="form-group mt-4">
                         <textarea
-                          class="form-control"
+                          class="form-control "
                           id="exampleFormControlTextarea1"
                           rows="3"
                           placeholder="Message"
                         ></textarea>
-                        <button type="button" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn mt-2">Submit</button>
                       </div>
                     </div>
                   </div>
@@ -113,7 +95,7 @@ function Description({ item, handleClick, handleClick2 }) {
       <div class="container-fluid">
         <div class="row">
           {relatedProduct.slice(0, 4).map((item) => (
-            <div class="col-lg-3 col-md-6 col-xs-6" key={item.id}>
+            <div class="col-lg-3 col-md-3 col-sm-6 mt-5" key={item.id}>
               <Cards
                 item={item}
                 handleClick={handleClick}
