@@ -20,11 +20,12 @@ function Info({ item, handleClick, handleClick2 }) {
           <div className="card-body">
             <div className="card-title ">
               <h2>{title}</h2>
-              <BsCart3 size="1.5rem" onClick={() => handleClick(item)} />
-              <BsBookmarkHeart
+              <a><BsCart3 size="1.5rem" onClick={() => handleClick(item)} /></a>
+              <a><BsBookmarkHeart
                 size="1.5rem"
                 onClick={() => handleClick2(item)}
-              />
+              /></a>
+              
               <p class="card-text">{stars}</p>
               <p class="card-text">{price}</p>
               <h4>Category:{category}</h4>

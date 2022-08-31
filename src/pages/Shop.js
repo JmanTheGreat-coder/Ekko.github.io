@@ -161,7 +161,7 @@ function App({ handleClick, handleClick2 }) {
           <div class="col-lg-9">
             <div class="card-body">
               <div class="row">
-                <div class="dropdown">
+                <div class="dropdown mr-3">
                   <button
                     class="btn btn-secondary dropdown-toggle"
                     type="button"
@@ -176,7 +176,7 @@ function App({ handleClick, handleClick2 }) {
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li>
-                      <a class="dropdown-item">Default</a>
+                      <a class="dropdown-item" onClick={() => setData(list)}>Default</a>
                     </li>
                     <li>
                       <a class="dropdown-item" onClick={() => ascOrder()}>
@@ -196,7 +196,7 @@ function App({ handleClick, handleClick2 }) {
 
             <div class="row">
               <div class="col-lg-12">
-                <div class="row row-cols-1 row-cols-md-3 ">
+                <div class="row row-cols-sm-3 row-cols-md-3 row-cols-2">
                   {data
                     .sort(sortMethods[sortState].method)
                     .slice(visitedPage, visitedPage + productPerPage)

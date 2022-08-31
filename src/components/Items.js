@@ -38,7 +38,7 @@ function Items({ handleClick, handleClick2}) {
         <div class='container'>
         <div class="row">
                     {data.slice(0, 4).map((item) => (
-                               <div class="col-lg-3 col-md-6 col-xs-6">
+                               <div class="col-lg-3 col-md-3 col-sm-6">
                                 <Cards key={item.id} item={item} handleClick={handleClick} handleClick2={handleClick2}/>
                                </div>
                       

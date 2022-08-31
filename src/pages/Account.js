@@ -19,16 +19,15 @@ function Account() {
                   <div class="card">
                     <div class="card-header" id="headingOne">
                       <h5 class="mb-0">
-                        <button
-                          class="btn btn-link"
+                        <h4
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseOne"
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Edit Your Account Information
-                        </button>
+                        Edit Your Account Information
+                        </h4>
                       </h5>
                     </div>
 
@@ -81,16 +80,15 @@ function Account() {
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h5 class="mb-0">
-                        <button
-                          class="btn btn-link collapsed"
-                          type="button"
+                        <h4
+                                                  type="button"
                           data-toggle="collapse"
                           data-target="#collapseTwo"
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Change Your Password
-                        </button>
+                        Change Your Password
+                        </h4>
                       </h5>
                     </div>
                     <div

@@ -18,26 +18,14 @@ function Description({ item, handleClick, handleClick2 }) {
 
   return (
     <div class="container">
-      <div class="card text-center">
+      <div class="card">
         <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs">
-            <li class="nav-item">
-              <a
-                className={` ${tab === "desc" ? "tab__active" : ""}`}
-                onClick={() => setTab("desc")}
-              >
-                Active
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                className={` ${tab === "rev" ? "tab__active" : ""}`}
-                onClick={() => setTab("rev")}
-              >
-                Link
-              </a>
-            </li>
-          </ul>
+        <div class="card-body text-center">
+        <a class="card-link" onClick={() => setTab("desc")}>
+        Description
+        </a>{" "}
+        /<a onClick={() => setTab("rev")}>Reviews</a>
+      </div>
         </div>
         <div class="card-body">
           {tab === "desc" ? (
@@ -46,17 +34,17 @@ function Description({ item, handleClick, handleClick2 }) {
             </div>
           ) : (
             <div class="row">
-              <div class="col-sm-7 col-md">
-                <div class="card">
+              <div class="col-lg-7 col-md-12">
+                <div class="card border-0">
                   <div class="card-body">
                     <p>{review}</p>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-5">
-                <div class="card h-100">
+              <div class="col-lg-5 col-md-12">
+                <div class="card h-100  border-0">
                   <div class="card-body">
-                    <h5>Add a Review</h5>      
+                    <h5>Add a Review</h5>
                     <div class="row">
                       <div class="col col-md-6 col-sm-12">
                         <input
@@ -82,7 +70,9 @@ function Description({ item, handleClick, handleClick2 }) {
                           rows="3"
                           placeholder="Message"
                         ></textarea>
-                        <button type="button" class="btn mt-2">Submit</button>
+                        <button type="button" class="btn mt-2">
+                          Submit
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -95,7 +85,7 @@ function Description({ item, handleClick, handleClick2 }) {
       <div class="container-fluid">
         <div class="row">
           {relatedProduct.slice(0, 4).map((item) => (
-            <div class="col-lg-3 col-md-3 col-sm-6 mt-5" key={item.id}>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6 mt-5" key={item.id}>
               <Cards
                 item={item}
                 handleClick={handleClick}

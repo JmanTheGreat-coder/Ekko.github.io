@@ -33,6 +33,13 @@
   }
 }
 
+input[type="text"]{
+  font-family: 'Oswald', sans-serif;
+}
+input::placeholder {
+  font-family: 'Oswald', sans-serif;
+}
+
 p{
   color: #000000;
 }
@@ -85,11 +92,11 @@ p{
 .btn:hover {
   background-color: #77bb44;
   color: white;
-  border-radius: 20px;
 }
 .input{
   border-radius: 20px;
   width: 100%;
+
 }
 .btn{
   border-radius: 20px;

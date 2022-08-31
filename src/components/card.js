@@ -21,8 +21,9 @@ const Cards = ({ item, handleClick, handleClick2 }) => {
                 <p>{title}</p>
               </h6>  
             </Link> 
-            <BsCart3 size='1.5rem' class='col-6' onClick={() => handleClick(item)}/>
-            <BsBookmarkHeart size='1.5rem' class='col-6' onClick={() => handleClick2(item)}/>
+            <a><BsCart3 size='1.5rem' class='col-6 ' onClick={() => handleClick(item)}/></a>
+            <a><BsBookmarkHeart size='1.5rem' class='col-6' onClick={() => handleClick2(item)}/></a>
+            
 
             <p class="card-text text-center">{stars}</p>
             <p class="card-text text-center">{price}</p>

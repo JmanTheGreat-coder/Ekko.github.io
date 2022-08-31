@@ -91,7 +91,7 @@ function Contact() {
                   </div>
                 </div>
               </form>
-              <button type="button" class="btn btn-primary">
+              <button type="button" class="btn">
                 Submit
               </button>
             </div>
