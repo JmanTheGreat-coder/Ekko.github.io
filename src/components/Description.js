@@ -37,6 +37,7 @@ function Description({ item, handleClick, handleClick2 }) {
               <div class="col-lg-7 col-md-12">
                 <div class="card border-0">
                   <div class="card-body">
+                    <h4>Johnny Dane</h4>
                     <p>{review}</p>
                   </div>
                 </div>

@@ -26,30 +26,30 @@ function Carousel() {
                 <img src={Mar} class="d-block w-100" alt="Slide 1"/>
                 <div class="carousel-caption d-md-block">
                     <Link to='/products/4'>
-                        <button type="button" class="btn btn-primary">Buy Now</button>
+                        <button type="button" class="btn btn-success">Buy Now</button>
                     </Link>
                     
-                    <p>Some demonstrative placeholder content for the first slide.</p>
+                    <h4>Some demonstrative placeholder content for the first slide.</h4>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src={Sek} class="d-block w-100" alt="Slide 2"/>
                 <div class="carousel-caption d-md-block">
                 <Link to='/products/7'>
-                    <button type="button" class="btn btn-primary">Buy Now</button>
+                    <button type="button" class="btn btn-success">Buy Now</button>
                 </Link>
                 
-                    <p>Some demonstrative placeholder content for the second slide.</p>
+                    <h4>Some demonstrative placeholder content for the second slide.</h4>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src={Van} class="d-block w-100" alt="Slide 3"/>
                 <div class="carousel-caption d-md-block">
                 <Link to='/products/20'>
-                    <button type="button" class="btn btn-primary">Buy Now</button>
+                    <button type="button" class="btn btn-success">Buy Now</button>
                 </Link>
                 
-                    <p>Some demonstrative placeholder content for the third slide.</p>
+                    <h4>Some demonstrative placeholder content for the third slide.</h4>
                 </div>
             </div>
         </div>
