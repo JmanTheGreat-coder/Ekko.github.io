@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Ekko/static/css/main.923f5ac1.css",
+    "main.js": "/Ekko/static/js/main.b267b2c3.js",
+    "static/js/787.016dd43c.chunk.js": "/Ekko/static/js/787.016dd43c.chunk.js",
+    "static/media/key sek.jpg": "/Ekko/static/media/key sek.8ac0fb2d480c1ba67ea7.jpg",
+    "static/media/key mario.png": "/Ekko/static/media/key mario.60d2d50938cb49cc5d79.png",
+    "static/media/key van.jpg": "/Ekko/static/media/key van.caa51e4ffdc2fd795b36.jpg",
+    "static/media/doom.png": "/Ekko/static/media/doom.e54780480d541afd23ab.png",
+    "static/media/pokemon.png": "/Ekko/static/media/pokemon.3e23df0fc3f3aae88c22.png",
+    "static/media/review.jpg": "/Ekko/static/media/review.25d8a4a73c4d250a230e.jpg",
+    "static/media/god of war.png": "/Ekko/static/media/god of war.45655fc6ae6056ce2d24.png",
+    "static/media/halo.png": "/Ekko/static/media/halo.1709969066f0d8966756.png",
+    "static/media/switch.png": "/Ekko/static/media/switch.89c320a11a0889fd530d.png",
+    "static/media/GTA.jpg": "/Ekko/static/media/GTA.5fa69ef821c523fc36ab.jpg",
+    "static/media/Mario.jpg": "/Ekko/static/media/Mario.abb88e074455debe5516.jpg",
+    "index.html": "/Ekko/index.html",
+    "main.923f5ac1.css.map": "/Ekko/static/css/main.923f5ac1.css.map",
+    "main.b267b2c3.js.map": "/Ekko/static/js/main.b267b2c3.js.map",
+    "787.016dd43c.chunk.js.map": "/Ekko/static/js/787.016dd43c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923f5ac1.css",
+    "static/js/main.b267b2c3.js"
+  ]
+}
